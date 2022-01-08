@@ -1,6 +1,6 @@
 {
   "name": "@leoz/react-native-template-icecream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Native Template IceCream",
   "scripts": {
     "lint": "cd template && npm run lint"

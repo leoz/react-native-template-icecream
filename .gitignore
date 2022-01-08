@@ -4,3 +4,4 @@ template/android/build
 template/android/app/build
 template/yarn.lock
 .DS_Store
+*.tgz
