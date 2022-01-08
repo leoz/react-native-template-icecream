@@ -1,0 +1,14 @@
+{
+  "name": "@leoz/react-native-template-icecream",
+  "version": "0.0.1",
+  "description": "React Native Template IceCream",
+  "scripts": {
+    "lint": "cd template && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoz/react-native-template-icecream.git"
+  },
+  "author": "Leonid Zolotarev",
+  "license": "UNLICENSED"
+}
