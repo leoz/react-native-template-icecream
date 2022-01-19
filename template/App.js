@@ -1,6 +1,7 @@
 import React, {useCallback, useMemo} from 'react';
 import {SafeAreaView, View, StyleSheet} from 'react-native';
 
+import RNSyncEngine from './app/native/RNSyncEngine';
 import TaskContext, {Task} from './app/models/Task';
 import IntroText from './app/components/IntroText';
 import AddTaskForm from './app/components/AddTaskForm';
@@ -10,6 +11,7 @@ import colors from './app/styles/colors';
 const {useRealm, useQuery, RealmProvider} = TaskContext;
 
 function App() {
+  RNSyncEngine.startEngine();
   const realm = useRealm();
   const result = useQuery('Task');
   const tasks = useMemo(
