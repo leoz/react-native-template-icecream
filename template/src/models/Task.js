@@ -1,6 +1,6 @@
-import {Realm, createRealmContext} from '@realm/react';
+import {Realm} from '@realm/react';
 
-export class Task {
+export default class Task {
   constructor({
     id = new Realm.BSON.ObjectId().toString(),
     description,
@@ -27,8 +27,3 @@ export class Task {
     },
   };
 }
-
-export default createRealmContext({
-  schema: [Task.schema],
-  //deleteRealmIfMigrationNeeded: true,
-});
