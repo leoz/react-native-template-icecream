@@ -1,12 +1,12 @@
 import React, {useCallback, useMemo} from 'react';
 import {SafeAreaView, View, StyleSheet} from 'react-native';
 
-import RNSyncEngine from './app/native/RNSyncEngine';
-import TaskContext, {Task} from './app/models/Task';
-import IntroText from './app/components/IntroText';
-import AddTaskForm from './app/components/AddTaskForm';
-import TaskList from './app/components/TaskList';
-import colors from './app/styles/colors';
+import RNSyncEngine from './native/RNSyncEngine';
+import TaskContext, {Task} from './models/Task';
+import IntroText from './components/IntroText';
+import AddTaskForm from './components/AddTaskForm';
+import TaskList from './components/TaskList';
+import colors from './styles/colors';
 
 const {useRealm, useQuery, RealmProvider} = TaskContext;
 
